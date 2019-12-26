@@ -3,6 +3,8 @@
 @import "shared/header.css";
 @import "shared/buttons.css";
 @import "shared/form.css";
+@import "shared/author.css";
+@import "shared/book.css";
 
 :root {
     font-family: "Gotham Rounded";
@@ -15,11 +17,10 @@
 }
 
 body {
-    background: linear-gradient(to bottom,
-                var(--color-background-light),
-                var(--color-background-dark));
-    background-attachment:fixed;
-    height:100%;
+    background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
@@ -38,4 +39,8 @@ body {
 .page-header {
     font-size: 2rem;
     font-weight: 500;
+}
+
+.error-message {
+    color: hsl(var(--color-danger-hue), 100%, 50%);
 }
