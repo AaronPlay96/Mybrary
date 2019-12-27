@@ -1,7 +1,7 @@
 :root {
     --nav-title-font-size: 3rem;
     --nav-title-font-weight: bold;
-    --nav-background-color: hsl(145, 100%, 15%);
+    --nav-background-color: hsla(145, 100%, 15%,85%);
     --nav-link-font-weight: 300;
 }
 

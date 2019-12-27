@@ -3,7 +3,7 @@
     --color-background-dark: hsl(var(--color-base-hue), 100%, 20%);
     --color-background-light: hsl(var(--color-base-hue), 100%, 30%);
     --color-text-light: hsl(var(--color-base-hue), 100%, 80%);
-    --color-inner-background: hsl(var(--color-base-hue), 100%, 15%);
+    --color-inner-background: hsla(var(--color-base-hue), 100%, 15%, 85%);
     --color-danger-hue-offset: 180;
     --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
 }
